@@ -4,25 +4,25 @@ import { fadeIn } from "../../framerMotion/variants";
 const HeroText = () => {
   return (
     <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center">
-      <motion.h2
-        variants={fadeIn("down", 0.2)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
-      >
-        Full-Stack Web Developer
-      </motion.h2>
+      
       <motion.h1
         variants={fadeIn("right", 0.4)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="md:text-[2.8rem] lg:text-6xl sm:text-4xl text-orange font-bold uppercase"
+        className="md:text-[2.8rem] lg:text-[60px] sm:text-[36px] text-orange font-bold uppercase lg:w-[641px] lg:leading-[80px]"
       >
-        Amina Elahi <br className="sm:hidden md:block" />
-        Sarder
+         Monjur Elahi Touheed
       </motion.h1>
+      <motion.h2
+        variants={fadeIn("down", 0.2)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        className="lg:text-2xl sm:text-xl  uppercase text-lightGrey"
+      >
+        Frontend Web Developer
+      </motion.h2>
       <motion.p
         variants={fadeIn("up", 0.6)}
         initial="hidden"
@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Full-Stack Web Design and Developer
+        A Passionate Fronend Web Designer and Developer
       </motion.p>
     </div>
   );
