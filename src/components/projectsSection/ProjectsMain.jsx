@@ -5,33 +5,26 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Appoinment System",
+    name: "Chatting Application",
     year: "web app",
     align: "right",
-    image: "/public/images/website-img-1.jpg",
-    link: "https://appointment-react-app-72baa.web.app",
+    image: "/public/images/chatting-application.png",
+    link: "https://chat-app-tau-six-60.vercel.app/",
   },
   {
-    name: "Movie App",
-    year: "web app",
+    name: "Petroil Landing Page",
+    year: "web page",
     align: "left",
-    image: "/public/images/website-img-2.webp",
-    link: "https://movie-app-a981b.web.app",
+    image: "/public/images/petroil-landing-page.png",
+    link: "https://petroil-landing-page.vercel.app/",
   },
   {
-    name: "Donation campaign",
+    name: "Hunting Phone",
     year: "web app",
     align: "right",
-    image: "/public/images/website-img-3.jpg",
-    link: "https://donation-campaign-6xdruetp8-amina-elahi-sarders-projects.vercel.app/",
-  },
-  {
-    name: "Coffee Shop",
-    year: "web app",
-    align: "left",
-    image: "/public/images/website-img-4.jpg",
-    link: "https://coffee-shop-2v8lppypb-amina-elahi-sarders-projects.vercel.app/",
-  },
+    image: "/public/images/hunting-phone.png",
+    link: "https://monjurelahitouheed.github.io/hunting-phone-api/",
+  }
 ];
 
 const ProjectsMain = () => {

@@ -14,7 +14,7 @@ const ServiceSection = () => {
     },
     {
       icon: "bx bxl-instagram-alt",
-      title: "CMS Design",
+      title: "CMS",
       description:
         "I'm working in Content Management System. I enjoy creating beautiful and intuitive apps using Wordpress.",
     },
