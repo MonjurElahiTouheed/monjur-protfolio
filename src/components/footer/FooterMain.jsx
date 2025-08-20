@@ -22,8 +22,8 @@ const FooterMain = () => {
   return (
     <div className="px-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
-      <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
-        <p className="text-3xl text-lightGrey ">Monjur Elahi Touheed</p>
+      <div className="md:flex justify-between pt-10 max-w-[1200px] mx-auto sm:hidden">
+        <p className="text-3xl text-lightGrey font-semibold">Monjur Elahi Touheed</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
             return (
@@ -43,7 +43,7 @@ const FooterMain = () => {
           })}
         </ul>
       </div>
-      <p className="max-w-[1200px] mx-auto text-right mt-2 mb-12 text-sm text-lightBrown">
+      <p className="max-w-[1200px] mx-auto text-right mt-2 pb-6 text-sm text-lightBrown">
         © 2025 MonjurElahiTouheed | All Rights Reserved.
       </p>
     </div>
