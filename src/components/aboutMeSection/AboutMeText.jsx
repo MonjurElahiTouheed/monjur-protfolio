@@ -4,7 +4,7 @@ const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
-      <p className="w-[450px] text-base">
+      <p className="lg:w-[450px] text-base">
         I’m Monjur Elahi Touheed, a web developer instructor with a passion for learning
         and coding. I specialize in React and front-end development. I enjoy continuous learning and sharing knowledge to inspire others to achieve their goals.
       </p>
