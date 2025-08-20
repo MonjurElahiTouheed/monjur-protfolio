@@ -2,21 +2,21 @@ const ServiceSection = () => {
   const services = [
     {
       icon: "bx bx-code-alt",
-      title: "Web Development",
+      title: "Frontend Development",
       description:
         "I'm working in web development. I enjoy creating beautiful web designs and developing user-friendly interfaces.",
     },
     {
       icon: "bx bx-crop",
-      title: "UI/UX Design",
+      title: "UI Design",
       description:
         "I'm working as a Designer using Figma, illustrator and photoshop. I enjoy creating beautiful and professional designs.",
     },
     {
       icon: "bx bxl-instagram-alt",
-      title: "App Design",
+      title: "CMS Design",
       description:
-        "I'm working in App development and design. I enjoy creating beautiful and intuitive apps using React Native.",
+        "I'm working in Content Management System. I enjoy creating beautiful and intuitive apps using Wordpress.",
     },
   ];
 
